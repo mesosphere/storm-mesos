@@ -1,4 +1,4 @@
-(defproject storm/storm-mesos "0.9"
+(defproject storm/storm-mesos "0.9.0.1"
   :description "Storm integration with the Mesos cluster manager"
   :source-paths ["src/clj"]
   :java-source-paths ["src/jvm"]
@@ -8,7 +8,7 @@
   :dependencies [
     [org.apache.mesos/mesos "0.14.2"]
     [com.google.protobuf/protobuf-java "2.4.1"]
-    [storm "0.9.0"]
+    [storm "0.9.0.1"]
     [org.apache.commons/commons-exec "1.1"]
     [commons-lang "2.6"]
     [com.googlecode.json-simple/json-simple "1.1"]
